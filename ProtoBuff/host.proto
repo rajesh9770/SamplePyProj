@@ -1,0 +1,52 @@
+syntax = "proto3";
+
+package ProtoBuff;
+
+message hostData {
+    repeated host hosts = 1;
+    string snapshotId = 2;
+    int64 snapshotTime = 3;
+    string operation = 4;
+}
+
+message host {
+    string source = 1;
+    string accessVLANId = 2;
+    string hostIp = 3;
+    string connectedDevice = 4;
+    string connectedInterface = 5;
+    string connectedAP = 6;
+    string hostType = 7;
+    bool isAuthenticated = 8;
+    bool isDirectlyConnected = 9;
+    string lastUpdated = 10;
+    string numUpdates = 11;
+    string pointOfAttachment = 12;
+    string pointOfPresence = 13;
+    string userGroups = 14;
+    string userStatus = 15;
+    string wlanProfileName = 16;
+    string connectedAPUrl = 17;
+    string connectedDeviceUrl = 18;
+    string connectedInterfaceUrl = 19;
+    string connectedAPIpAddress = 20;
+    string connectedAPMacAddress = 21;
+    string connectedAPName = 22;
+    string connectedInterfaceId = 23;
+    string connectedInterfaceName = 24;
+    string connectedNetworkDeviceId = 25;
+    string connectedNetworkDeviceIpAddress = 26;
+    string hostMac = 27;
+    string hostName = 28;
+    string avgUpdateFrequency = 29;
+    string connectedAPId = 30;
+    string userId = 31;
+    string subType = 32;
+    string vlanId = 33;
+    string description = 34;
+    string owningEntityId = 35;
+    string name = 36;
+    string instanceUuid = 37;
+    string id = 38;
+}
+

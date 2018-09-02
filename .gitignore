@@ -1,0 +1,7 @@
+venv
+.idea
+ProtoBuff/__pycache__/
+*.iml
+*/*.pyc
+*/*/*.pyc
+*/*/*/*.pyc
